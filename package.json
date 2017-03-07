@@ -1,4 +1,5 @@
 {
+  "_comment": "Asegurarse de que el proyecto tenga los datos del proyecto actual y no del ajeno",
   "name": "redux-simple-starter",
   "version": "1.0.0",
   "description": "Simple starter package for Redux with React and Babel support",
@@ -30,10 +31,12 @@
     "babel-preset-stage-1": "^6.1.18",
     "lodash": "^3.10.1",
     "react": "^0.14.3",
+     "_comment": "No se si usan express, pero encaso dado se debe agregar aca como dependencia, ya que puede ser una razon para que no despliegue",
     "react-dom": "^0.14.3",
     "react-redux": "^4.0.0",
     "react-router": "^2.0.1",
     "redux": "^3.0.4",
+     "_comment2": "no tener dependencias que no se usen",
     "youtube-api-search": "0.0.5"
   }
 }
